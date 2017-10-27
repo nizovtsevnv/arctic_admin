@@ -25,7 +25,7 @@ body.active_admin.logged_in {
 
 .header {
   .site_title {
-    /*width: 160px;*/
+    width: 160px;
     height: 50px;
     font-size: 16px;
     line-height: 50px;
@@ -38,14 +38,14 @@ body.active_admin.logged_in {
     margin: 0;
 
     @media screen and (min-width: $sm-width) {
-      /*width: $header-width;*/
+      width: $header-width;
       height: 60px;
       font-size: 20px;
       line-height: 60px;
     }
 
     @media screen and (min-width: $x-lg-width) {
-      /*width: $lg-header-width;*/
+      width: $lg-header-width;
     }
 
     #site_title_image {
