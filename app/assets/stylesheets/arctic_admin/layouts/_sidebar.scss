@@ -1,7 +1,7 @@
 .header #tabs {
   width: $header-width;
   height: calc(100% - 60px);
-  position: absolute;
+  position: fixed;/*absolute;*/
   top: 50px;
   background-color: $sidebar-background;
   border-right: 1px solid $sidebar-border-color;
@@ -14,7 +14,7 @@
   }
 
   @media screen and (min-width: $lg-width) {
-    left: 0px !important;
+    /*left: 0px !important;*/
   }
 
   @media screen and (min-width: $x-lg-width) {
