@@ -38,7 +38,7 @@ body.active_admin.logged_in {
     margin: 0;
 
     @media screen and (min-width: $sm-width) {
-      width: $header-width;
+      /*width: $header-width;*/
       height: 60px;
       font-size: 20px;
       line-height: 60px;
