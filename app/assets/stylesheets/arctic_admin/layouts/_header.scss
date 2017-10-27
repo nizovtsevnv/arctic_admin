@@ -47,7 +47,7 @@ body.active_admin.logged_in {
     @media screen and (min-width: $x-lg-width) {
       width: $lg-header-width;
     }
-    
+
     #site_title_image {
       height: 100%;
       padding: 6px 0;
@@ -92,7 +92,7 @@ body.active_admin.logged_in {
 
     @media screen and (min-width: $lg-width) {
       &:before {
-        display: none;
+        /*display: none;*/
       }
     }
 
@@ -177,7 +177,7 @@ body.active_admin.logged_in {
         }
 
       }
-      
+
       @media screen and (min-width: $sm-width) {
         min-width: 60px;
         min-height: 59px;
