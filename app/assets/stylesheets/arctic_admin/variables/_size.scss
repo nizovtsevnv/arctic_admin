@@ -1,9 +1,9 @@
-$header-width: 150px !default;
+$header-width: 150px;
 $screen-header-width: calc(100% - $header-width) !default;
 $lg-header-width: $header-width !default;
 $lg-screen-header-width: calc(100% - $header-width) !default;
 
-$filter-width: 450px !default;
+$filter-width: 450px;
 $screen-filter-width: calc(100% - $filter-width) !default;
 $lg-filter-width: $filter-width !default;
 $lg-screen-filter-width: calc(100% - $filter-width) !default;
