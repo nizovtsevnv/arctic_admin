@@ -16,10 +16,15 @@
   .filter_form_field {
     margin-bottom: 2px;
 
-    input[type=text], select {
+    input, select {
       position: absolute;
       left: 200px;
       width: 180px;
+    }
+
+    input[type=radio], input[type=checkbox] {
+      position: relative;
+      width: inherit;
     }
   }
 
