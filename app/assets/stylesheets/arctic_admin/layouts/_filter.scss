@@ -9,11 +9,22 @@
     width: $lg-filter-width;
   }
 
+  .buttons {
+    margin-top: 10px;
+  }
+
+  .filter_form_field {
+    input, select {
+      position: absolute;
+      left: 200px;
+    }
+  }
+
   .sidebar_section {
     padding: 15px 20px;
 
     h3 {
-      margin: 0 0 10px 0;
+      margin: 10px 0 10px 0;
     }
 
     .label {
@@ -34,7 +45,7 @@
     .select_and_search {
       input, select {
         width: 45%;
-        display: inline-block;  
+        display: inline-block;
       }
 
       input {
