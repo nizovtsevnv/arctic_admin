@@ -14,7 +14,7 @@
   }
 
   .filter_form_field {
-    margin-bottom: 2px;
+    line-height: 1.5;
 
     input, select {
       position: absolute;
@@ -23,7 +23,7 @@
     }
 
     input[type=radio], input[type=checkbox] {
-      position: relative;
+      position: inherit;
       width: 1rem;
     }
   }
