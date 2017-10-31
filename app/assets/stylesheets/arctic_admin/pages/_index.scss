@@ -81,8 +81,10 @@ body.index {
       margin-right: 4px;
     }
   }
-  
+
   .scopes {
+    margin-top: 0.5rem;
+
     .scope {
       @include group-button($primary-color);
     }
