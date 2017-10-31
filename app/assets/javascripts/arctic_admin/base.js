@@ -32,10 +32,9 @@ $(function() {
 
   var animationDone = true;
   $('#utility_nav').click(function (e) {
-    console.log(e.pageX);
     var position = $(this).position();
     var tabs = $('#tabs');
-    var width = tabs.outerWidth();//Math.round(tabs[0].getBoundingClientRect().width);
+    var width = tabs.width();//Math.round(tabs[0].getBoundingClientRect().width);
 
     //if (e.pageX < (position.left + 40)) {
       if(animationDone == true) {

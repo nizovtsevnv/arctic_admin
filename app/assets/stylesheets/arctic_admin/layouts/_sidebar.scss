@@ -1,5 +1,5 @@
 .header #tabs {
-  width: 350px;
+  width: $menu-width;
   height: calc(100% - 60px);
   position: fixed;/*absolute;*/
   top: 50px;
@@ -7,7 +7,7 @@
   border-right: 1px solid $sidebar-border-color;
   z-index: 1;
   overflow: auto;
-  left: -350px;
+  left: - $menu-width;
 
   @media screen and (min-width: $sm-width) {
     top: 60px;
@@ -18,7 +18,7 @@
   }
 
   @media screen and (min-width: $x-lg-width) {
-    width: $lg-header-width;
+    /*width: $lg-header-width;*/
   }
 
   li {
