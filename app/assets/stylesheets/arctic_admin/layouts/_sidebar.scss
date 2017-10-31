@@ -41,12 +41,13 @@
 
     &.current {
       a {
-        color: $primary-color;
+        color: $blue;
       }
     }
 
     &.has_nested {
       a {
+        font-size: 1rem;
         font-weight: bold;
       }
 
@@ -75,6 +76,7 @@
         a {
           /*padding: 0px 15px 0px 35px;*/
           color: $text-color;
+          font-size: 0.8rem;
           font-weight: normal;
 
           &:hover {
