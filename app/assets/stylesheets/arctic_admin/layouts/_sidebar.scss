@@ -75,6 +75,7 @@
         a {
           /*padding: 0px 15px 0px 35px;*/
           color: $text-color;
+          font-weight: normal;
 
           &:hover {
             background-color: $sidebar-nested-item-hover-background;
@@ -86,7 +87,7 @@
         }
 
         .current a {
-          color: $primary-color;
+          color: $blue;
         }
       }
 
