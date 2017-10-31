@@ -5,6 +5,7 @@
   top: 50px;
   background-color: $sidebar-background;
   border-right: 1px solid $sidebar-border-color;
+  padding: 1rem 0;
   z-index: 1;
   overflow: auto;
   left: - $menu-width;
