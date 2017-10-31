@@ -23,8 +23,8 @@
 
   li {
     width: 100%;
-    font-size: 14px;
-    line-height: 38px;
+    font-size: 1rem;
+    line-height: 1.25rem;
     cursor: pointer;
 
     a {
@@ -74,7 +74,7 @@
         display: none;
 
         a {
-          /*padding: 0px 15px 0px 35px;*/
+          padding-left: 20px;
           color: $text-color;
           font-size: 0.8rem;
           font-weight: normal;
