@@ -14,18 +14,7 @@
   }
 
   .filter_form_field {
-    line-height: 1.5;
-
-    input, select {
-      position: absolute;
-      left: 200px;
-      width: 180px;
-    }
-
-    input[type=radio], input[type=checkbox] {
-      position: inherit;
-      width: 1rem;
-    }
+    line-height: 1.75;
   }
 
   .sidebar_section {
@@ -35,18 +24,27 @@
       margin: 10px 0 10px 0;
     }
 
+    input, select {
+      height: 30px;
+      padding: 3px 5px;
+      font-size: 12px;
+      position: absolute;
+      left: 200px;
+      width: 180px;
+    }
+
+    input[type=radio], input[type=checkbox] {
+      height: 30px;
+      position: inherit;
+      width: 1rem;
+    }
+
     .label {
       text-align: left;
     }
 
     .input {
-      margin-bottom: 15px;
-
-      input, select {
-        height: 30px;
-        padding: 3px 5px;
-        font-size: 12px;
-      }
+      margin-bottom: 0;
     }
 
     .select_and_search {
