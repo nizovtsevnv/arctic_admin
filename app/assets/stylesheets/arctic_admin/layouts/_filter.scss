@@ -39,6 +39,11 @@
       width: 1rem;
     }
 
+    input[type=submit] {
+      position: inherit;
+      padding: inherit;
+    }
+
     .label {
       text-align: left;
     }
