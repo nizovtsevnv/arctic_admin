@@ -15,3 +15,10 @@
 .status_tag.cancel, .status_tag.red {
   background-color: #f73737;
 }
+
+.status_tag.no {
+  background-color: $red;
+}
+.status_tag.yes {
+  background-color: $green;
+}
