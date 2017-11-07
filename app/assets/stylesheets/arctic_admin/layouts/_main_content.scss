@@ -1,6 +1,7 @@
 #main_content_wrapper {
   float: left;
   width: 100%;
+  overflow: scroll;
 
   @include clear-fix();
 }
